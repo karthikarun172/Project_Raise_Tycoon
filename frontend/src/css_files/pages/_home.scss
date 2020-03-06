@@ -1,0 +1,153 @@
+html {
+  font-size: 62.5%;
+  @include Response(tab_land) {
+    font-size: 56.25%;
+  }
+  @include Response(tab_port) {
+    font-size: 50%;
+    width: 100% !important;
+  }
+  @include Response(big_Screen) {
+    font-size: 75%;
+  }
+}
+
+.home {
+  font-family: "Montserrat";
+  background-color: #e3e3e3;
+  .Iheader {
+    background-image: linear-gradient(
+        to bottom right,
+        #003d0f 20%,
+        rgb(61, 56, 56)
+      ),
+      url("../images/homeBG.svg");
+    width: 100%;
+    height: 60vh;
+    background-blend-mode: lighten;
+    .headerButton {
+      background-color: red;
+      border: none;
+      margin: 2px;
+      color: white;
+      margin-top: 50vh;
+      margin-left: 100px;
+      margin-bottom: 100px;
+      padding: 5px 30px;
+      border-radius: 8px;
+    }
+  }
+  .homeSec {
+    h2 {
+      text-align: center;
+      padding-top: 40px;
+    }
+    .serviceCont {
+      width: 50%;
+      position: relative;
+      left: 25%;
+      margin-top: 60px;
+      height: 400px;
+
+      @include Response(tab_land) {
+        width: 100% !important;
+        background-color: green;
+        left: 0;
+      }
+      .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style: none;
+      }
+    }
+  }
+  .OurClients {
+    background-color: #fafafa;
+
+    .Clients {
+      @include Response(tab_land) {
+        flex-wrap: wrap;
+      }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style: none;
+      .clientLogos {
+        padding: 50px 0px;
+        height: 150px;
+        width: 150px;
+      }
+    }
+  }
+  .hireDetails {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .hireScopes {
+      border: solid black 2px;
+      border-radius: 20px;
+      height: 300px;
+      width: 1200px;
+      .Scopes {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 100px;
+        h5 {
+          font-weight: bold;
+        }
+        p {
+          width: 300px;
+        }
+      }
+    }
+  }
+  .howitWorks {
+    padding-top: 200px;
+    .howitWorkContainer {
+      background-color: #f2f2f2;
+      width: 80%;
+      border-radius: 50px;
+      box-shadow: 2px 2px 2px gray;
+      margin-left: 10%;
+      h4 {
+        text-align: center;
+        color: #a56262;
+        font-weight: bold;
+        padding: 30px;
+      }
+      h5 {
+        text-align: center;
+        color: #a56262;
+        font-weight: bold;
+      }
+      p {
+        text-align: center;
+        width: 300px;
+        color: #868686;
+      }
+      .HIWS {
+        padding: 20px;
+        .HIW {
+          @include Response(tab_land) {
+            flex-wrap: wrap;
+          }
+          flex-wrap: wrap;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          list-style: none;
+          padding-bottom: 40px;
+          img {
+            margin-left: 35px;
+          }
+        }
+      }
+    }
+  }
+}

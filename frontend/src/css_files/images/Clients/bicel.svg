@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="92" viewBox="0 0 129 92">
+  <g id="Group_18" data-name="Group 18" transform="translate(-608 -1611)">
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(608 1611)" fill="#951010">
+      <path d="M 122.0643310546875 91.5 L 0.9356707334518433 91.5 L 61.5 0.8997025489807129 L 122.0643310546875 91.5 Z" stroke="none"/>
+      <path d="M 61.5 1.799392700195312 L 1.871337890625 91 L 121.128662109375 91 L 61.5 1.799392700195312 M 61.5 0 L 123 92 L 0 92 L 61.5 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="129" height="49" transform="translate(608 1632)" fill="#fafafa"/>
+    <text id="BICEL" transform="translate(622 1670)" font-size="35" font-family="Silom"><tspan x="0" y="0">BICEL</tspan></text>
+  </g>
+</svg>

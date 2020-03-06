@@ -1,0 +1,79 @@
+.profileThumb {
+  background-color: #21243d;
+  width: 300px;
+  color: #c9c9c9;
+  margin: 30px;
+  font-family: "Montserrat";
+  box-shadow: 2px 2px 12px gray;
+  cursor: pointer;
+
+  .sec1 {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .img {
+    }
+  }
+  .datas {
+    h3 {
+      font-size: medium;
+    }
+    h5 {
+      font-size: small;
+    }
+    h6 {
+      background-color: #c9c9c9;
+      color: #21243d;
+      text-align: center;
+      margin-top: 10px;
+      padding: 5px;
+    }
+  }
+  .datas1 {
+    align-self: flex-end;
+    h6 {
+      margin-left: 20px;
+    }
+    h5 {
+      background-color: #c9c9c9;
+      color: #21243d;
+      padding: 5px 15px;
+      font-size: 1rem;
+    }
+  }
+  .sec2 {
+    display: flex;
+    justify-content: space-around;
+    border: solid #c9c9c9 1px;
+    margin-top: -20px;
+
+    h5 {
+      font-size: 0.8rem;
+      padding: 5px 10px;
+      margin: 2px;
+    }
+  }
+  .abt {
+    padding: 20px;
+    h3 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    h5 {
+      font-size: 1rem;
+    }
+  }
+  .booknow {
+    button {
+      width: 100%;
+      padding: 10px 20px;
+      color: #21243d;
+      font-weight: bold;
+      border: none;
+      background-color: #c9c9c9;
+    }
+  }
+}

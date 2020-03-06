@@ -1,0 +1,37 @@
+.theProjectDetails {
+  margin-top: 200px;
+  font-family: "Montserrat";
+
+  .projectDetails {
+    h1 {
+      position: relative;
+      margin-bottom: 20px;
+      text-align: center;
+      font-family: "Montserrat";
+      color: #5f5f5f;
+      font-weight: bold;
+    }
+  }
+  .placeaBid {
+    background-color: #989898;
+    margin-top: 30px;
+    color: #ffffff;
+    margin: 40px 200px;
+    padding: 40px;
+    h3 {
+      text-align: center;
+    }
+    .bid {
+      .placeBidbtn {
+        width: 200px;
+        padding: 20px;
+        position: relative;
+        left: 40%;
+        .bidbtn {
+          padding: 10px 30px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

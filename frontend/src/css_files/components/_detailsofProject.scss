@@ -1,0 +1,24 @@
+.allDetails {
+  background-color: #989898;
+  color: #ffffff;
+  font-family: "Montserrat";
+  margin: 0px 200px;
+  padding: 60px;
+  .details1 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    .dr {
+      p {
+        width: 600px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .skillsndBid {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

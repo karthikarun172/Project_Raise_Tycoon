@@ -1,0 +1,112 @@
+.inputCont {
+  margin-right: 20px;
+
+  .inputLabel {
+    font-family: "Montserrat";
+    margin-top: 40px;
+    color: #6e6e6e;
+    font-size: 1.4rem;
+  }
+  .Input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: solid #7a7a7a 0.5px;
+    width: 460px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 1.2em;
+  }
+}
+
+.largeInput {
+  .largeInputLabel {
+    font-family: "Montserrat";
+    margin-top: 40px;
+    color: #6e6e6e;
+    font-size: 1.4rem;
+    .largeInputCont {
+      display: flex;
+      flex-direction: column;
+      border-radius: 4px;
+      border: solid #7a7a7a 0.5px;
+      padding: 5px 10px;
+      font-size: 1.2em;
+    }
+  }
+}
+.BidlargeInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  .BidlargeInputLabel {
+    font-family: "Montserrat";
+    font-weight: bold;
+    .BidlargeInputCont {
+    }
+  }
+}
+
+.BidIpCont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  .BidinputLabel {
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+  .BidInput {
+    width: 500px;
+    padding: 10px 20px;
+  }
+}
+
+.smallInput {
+  margin-right: 20px;
+
+  .smallInputLabel {
+    font-family: "Montserrat";
+    margin-top: 40px;
+    color: #6e6e6e;
+    font-size: 1.4rem;
+  }
+  .smallInputBox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: solid #7a7a7a 0.5px;
+    width: 221px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 1.2em;
+  }
+}
+.form-group {
+  .SelectInputLabel {
+    margin-top: 40px;
+    font-family: "Montserrat";
+    margin-top: 40px;
+    color: #6e6e6e;
+    font-size: 1.4rem;
+  }
+  .form-control {
+    border-radius: 4px;
+    border: solid #7a7a7a 0.5px;
+    width: 460px;
+    height: 40px;
+
+    font-size: 1.2em;
+  }
+}
+.applicationForm {
+  .formContainer {
+    .form {
+      .SubmitButton {
+        padding: 5px 50px;
+        margin-top: 130px;
+        margin-bottom: 100px;
+        margin-left: 150px;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215" height="73" viewBox="0 0 215 73">
+  <defs>
+    <filter id="Rectangle_75" x="0" y="0" width="215" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_235" data-name="Group 235" transform="translate(-745 -312)">
+    <g transform="matrix(1, 0, 0, 1, 745, 312)" filter="url(#Rectangle_75)">
+      <rect id="Rectangle_75-2" data-name="Rectangle 75" width="197" height="55" rx="8" transform="translate(6 6)" fill="#5c6fbe"/>
+    </g>
+    <text id="Facebook" transform="translate(801 353)" fill="#f0f0f0" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Facebook</tspan></text>
+  </g>
+</svg>

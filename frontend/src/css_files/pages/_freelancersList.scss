@@ -1,0 +1,25 @@
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  background-color: #c9c9c9;
+  font-family: "Montserrat";
+  .filterLists {
+    margin-top: 30px;
+    .filterlist {
+      background-color: #21243d;
+      list-style: none;
+      color: white;
+      padding: 10px;
+      padding-left: 30px;
+      width: 200px;
+      text-align: left;
+    }
+  }
+  .freelancersList {
+    .Flists {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+}

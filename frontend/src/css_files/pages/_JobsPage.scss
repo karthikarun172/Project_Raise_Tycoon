@@ -1,0 +1,20 @@
+.JobsDetail {
+  background-color: #c9c9c9;
+  .details {
+    position: relative;
+    left: 25%;
+    padding: 100px;
+    width: 40%;
+    .SearchIp {
+      color: white;
+      font-family: "Montserrat";
+      font-weight: bold;
+      border: none;
+      margin: 30px;
+      width: 900px;
+      background-color: #21243d;
+      padding: 10px 20px;
+      border-radius: 9px;
+    }
+  }
+}

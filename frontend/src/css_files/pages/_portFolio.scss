@@ -1,0 +1,143 @@
+.profile {
+  font-family: "Montserrat";
+  .profile_sec1 {
+    margin-top: 330px;
+
+    h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+  .hirebtn {
+    .hire {
+      margin-top: 30px;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      background-color: #c06c84;
+      padding: 5px 50px;
+      color: white;
+      font-weight: bold;
+      font-size: 1.7rem;
+      border-radius: 20px;
+      border: solid #707070 2px;
+    }
+  }
+  .profileDatas {
+    background-color: #c06c84;
+    margin: 0px 350px;
+    padding: 20px;
+  }
+  .flex1 {
+    display: flex;
+    margin-top: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .charges {
+      background-color: #ededed;
+      padding: 20px;
+      box-shadow: 15px 14px 10px rgba(0, 0, 0, 0.356);
+      border-radius: 20px;
+      height: 250px;
+      h3 {
+        text-align: center;
+        font-weight: bolder;
+        color: #696464;
+      }
+      h5 {
+        margin-top: 40px;
+        color: #696464;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
+    .profileabt {
+      background-color: #ededed;
+      padding: 20px;
+      box-shadow: 15px 14px 10px rgba(0, 0, 0, 0.356);
+      border-radius: 20px;
+      width: 800px;
+      height: 200px;
+
+      h4 {
+        text-align: center;
+        font-weight: bolder;
+        color: #696464;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+  .flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    .address {
+      background-color: #ededed;
+      padding: 20px;
+      box-shadow: 15px 14px 10px rgba(0, 0, 0, 0.356);
+      border-radius: 20px;
+      margin-left: 110px;
+      h4 {
+        text-align: center;
+        font-weight: bolder;
+        color: #696464;
+      }
+      h5 {
+        text-align: center;
+        font-weight: bolder;
+        color: #696464;
+      }
+    }
+    .expertise {
+      margin-right: 300px;
+      text-align: center;
+      color: #ededed;
+      h4 {
+        font-weight: bolder;
+      }
+      h2 {
+        border: solid #ededed 2px;
+        padding: 10px;
+      }
+    }
+  }
+  .flex3 {
+    background-color: #ededed;
+    box-shadow: 15px 14px 10px rgba(0, 0, 0, 0.356);
+    padding: 20px;
+    border-radius: 20px;
+
+    margin: 100px 50px 0px 50px;
+
+    .flex31 {
+      height: 700px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .work {
+        margin-top: 50px;
+        h4 {
+          text-align: center;
+          font-weight: bolder;
+          color: #696464;
+        }
+      }
+      .experience {
+        margin-top: 50px;
+        h4 {
+          text-align: center;
+          font-weight: bolder;
+          color: #696464;
+        }
+      }
+    }
+  }
+}

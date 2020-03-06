@@ -1,0 +1,38 @@
+.applicationForm {
+  position: relative;
+  height: 100vh;
+  font-family: "Montserrat";
+  margin-top: 100px;
+
+  .formContainer {
+    width: 20%;
+    margin: auto;
+
+    h1 {
+      font-weight: bold;
+      font-size: 3.1rem;
+      text-align: center;
+    }
+    .form {
+      margin-top: 0px;
+      list-style: none;
+
+      .names {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+      }
+
+      button {
+        background-color: #6dcc3b;
+        color: white;
+        border: none;
+        outline: none;
+        margin-top: 20px;
+        margin-left: 60px;
+        padding: 3px 20px;
+        border-radius: 8px;
+      }
+    }
+  }
+}

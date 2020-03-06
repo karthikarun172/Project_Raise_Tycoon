@@ -1,0 +1,77 @@
+.footer {
+  background-color: #5c5c5c;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: white;
+  font-family: "Montserrat";
+  padding: 100px;
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    h4 {
+      font-weight: bold;
+      align-self: flex-end;
+    }
+    .footernavs {
+      color: white;
+      .footernav {
+        text-align: left;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        margin-top: 15px;
+      }
+    }
+  }
+  .LatestArticles {
+    display: flex;
+    flex-direction: column;
+    h4 {
+      font-weight: bold;
+      align-self: center;
+    }
+    .Articles {
+      .ariticle {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-top: 30px;
+        img {
+          height: 50px;
+          width: 70px;
+        }
+        p {
+          align-self: center;
+          margin-left: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .followUson {
+    h4 {
+      font-weight: bold;
+    }
+    .follows {
+      .follow {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-top: 20px;
+        img {
+          height: 40px;
+          width: 40px;
+        }
+        p {
+          align-items: center;
+          align-content: center;
+          align-self: center;
+          font-style: italic;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
